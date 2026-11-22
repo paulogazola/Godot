@@ -1,0 +1,7 @@
+78098b89c88a74ebe8c20117b8754620
+::res://::1793885776
+ball.gd::GDScript::6462318549472337786::1793413569::0::1::::<>Node2D<><>0<>0<><>::
+icon.svg::CompressedTexture2D::260918034617934292::1793363942::1793363952::1::::<><><>0<>0<>5c09821215b526a8c6bf889719975e97<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.gd::GDScript::2803006951443317793::1793413621::0::1::::<>Node2D<><>0<>0<><>::
+main.tscn::PackedScene::-1::1793413829::0::1::::<><><>0<>0<><>::res://main.gd<>res://ball.gd
+menu.tscn::PackedScene::2903768225540531529::1793364335::0::1::::<><><>0<>0<><>::uid://dynjt5f5gfl1::::res://icon.svg
