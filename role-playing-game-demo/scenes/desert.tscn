@@ -3,9 +3,13 @@
 [ext_resource type="TileSet" uid="uid://b1g6ti6f1816q" path="res://assets/spritesheets/desert.tres" id="1_1t2yg"]
 [ext_resource type="PackedScene" uid="uid://hsyh6evu04ui" path="res://grid_movement/pawns/character.tscn" id="2_wnm7i"]
 [ext_resource type="Script" uid="uid://8n5iaq78y7fv" path="res://grid_movement/pawns/character.gd" id="3_4tv1n"]
+[ext_resource type="Script" path="res://scenes/desert.gd" id="4_desert"]
+[ext_resource type="PackedScene" path="res://scenes/casa_deserto.tscn" id="5_casa"]
+[ext_resource type="PackedScene" path="res://scenes/casa_pequena.tscn" id="6_casa_pequena"]
 
 [node name="Node2D" type="Node2D" unique_id=1216284726]
 y_sort_enabled = true
+script = ExtResource("4_desert")
 
 [node name="chao" type="TileMapLayer" parent="." unique_id=1018813764]
 z_index = -1
@@ -17,7 +21,7 @@ tile_set = ExtResource("1_1t2yg")
 [node name="Character" parent="." unique_id=2111891110 instance=ExtResource("2_wnm7i")]
 z_index = 0
 y_sort_enabled = true
-position = Vector2(1382, 696)
+position = Vector2(1247, 468)
 script = ExtResource("3_4tv1n")
 speed = 200.0
 
@@ -39,3 +43,9 @@ drag_left_margin = 0.4
 drag_top_margin = 0.4
 drag_right_margin = 0.4
 drag_bottom_margin = 0.4
+
+[node name="Casa1" parent="." unique_id=1700000010 instance=ExtResource("5_casa")]
+position = Vector2(1037, 138)
+
+[node name="Casa2" parent="." unique_id=1700000011 instance=ExtResource("6_casa_pequena")]
+position = Vector2(1097, 498)
